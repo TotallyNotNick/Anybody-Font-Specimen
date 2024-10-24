@@ -1,0 +1,180 @@
+body {
+    font-family: 'Anybody';
+}
+
+/* header and navbar */
+    .header {
+        font-family: 'Anybody Expanded';
+        font-size: 64px;
+        text-align: center;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        text-shadow: 10px 10px #D9D9D9, 20px 20px #FF4122;
+    }
+
+    h2 {
+        font-size: 32px;
+        padding-top: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .about-h {
+        color: white;
+    }
+
+    .characters-h {
+        color:#D9D9D9
+    }
+
+    .body-copy-h {
+        color: black;
+    }
+
+    .display-h {
+        font-family: "Anybody Expanded";
+        color: black;
+    }
+
+    .experiments-h {
+        paint-order: stroke fill;
+        -webkit-text-stroke: 5px black;
+        color: #FF4122;
+    }
+
+/* navbar */
+    .navbar {
+        background-color: #FF4122;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+        position: relative;
+        padding-left:-15px;
+        padding-right: -15px;
+    }
+
+    .navbar a {
+        color: white;
+        text-decoration: none;
+        padding: 0 30px;
+        font-size: 24px;
+    }
+
+/* about section */
+    .about {
+        column-count: 3;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+/* characters section */
+    .characters {
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 32px;
+    }
+
+    .symbols {
+        letter-spacing: 8px;
+    }
+
+/* body copy section */
+    .body-col {
+        columns: 2;
+        break-inside: avoid-column;
+    }
+    .body {
+        position: relative;
+        break-inside: avoid-column;
+        font-size: 24px;
+        font-family: 'Anybody';
+        width: 90%;
+        background-color: #FF4122;
+        color: white;
+        padding-left: 2%;
+        padding-top: 5%;
+        padding-bottom: 8%;
+        padding-right: 15%;
+        right: 10%;
+    }
+    .body-hyperextended {
+        break-inside: avoid-column;
+        font-size: 24px;
+        font-family: 'Anybody ExtraExpanded';
+        line-height: 50px;
+        background-color: #FF4122;
+        color: white;
+        padding-right: 5%;
+        padding-top: 5%;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .body-hypercondensed {
+        break-inside: avoid-column;
+        font-size: 24px;
+        font-family: 'Anybody ExtraCondensed';
+        line-height: 30px;
+        width: 70%;
+        padding-left: 5%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        background-color: #FF4122;
+        color: white;
+    }
+    .body-box-1 {
+        background-color: black;
+        width: 45%;
+        height: 250px;
+        z-index: -1;
+        position: absolute;
+        top: 1000px;
+        left: 30%;
+    }
+
+/* display section */
+    .display-1 {
+        font-size: 32px;
+        font-family: 'Anybody';
+        line-height: 30px;
+    }
+    .display-2 {
+        font-size: 32px;
+        font-family: 'Anybody Condensed';
+        line-height: 30px;
+    }
+    .display-3 {
+        font-size: 32px;
+        font-family: 'Anybody ExtraCondensed';
+        line-height: 30px;
+    }
+    .display-4 {
+        font-size: 32px;
+        font-family: 'Anybody ExtraExpanded';
+        line-height: 30px;
+    }
+    .display-5 {
+        font-size: 32px;
+        font-family: 'Anybody Expanded';
+        line-height: 30px;
+    }
+
+/* experiments section */
+    .experiment-1 {
+        font-size: 32px;
+        font-family: 'Anybody';
+        line-height: 30px;
+    }
+    .experiment-2 {
+        font-size: 32px;
+        font-family: 'Anybody';
+        line-height: 30px;
+    }
+    .experiment-3 {
+        font-size: 32px;
+        font-family: 'Anybody';
+        line-height: 30px;
+    }
