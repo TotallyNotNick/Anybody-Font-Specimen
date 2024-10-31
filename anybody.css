@@ -142,54 +142,81 @@ body {
 /* display section */
     .display-1 {
         font-family: "Anybody ExtraExpanded";
-        font-size: 2.5vw;
+        color: #D9D9D9;
+        background-color:#FF4122;
+        height: 10%;
+        font-size: 7.5vw;
         line-height: 3vw;
         position: absolute;
-        top: 200vw;
-        left: 75vw;
+        top: 220vw;
+        left: 5vw;
     }
 
     .display-2 {
-        rotate: -45deg;
+        font-weight: 900;
+        rotate: -30deg;
         font-family: "Anybody";
-        font-size: 2.5vw;
+        color: #D9D9D9;
+        background-color: #000000;
+        font-size: 7.5vw;
         line-height: 3vw;
         position: absolute;
-        top: 200vw;
-        left: 10vw;
+        top: 225vw;
+        left: 5vw;
     }
 
     .display-3 {
         rotate: 45deg;
         font-family: "Anybody ExtraCondensed";
+        color: #FFFFFF;
+        background-color: #000000;
         font-size: 2.5vw;
         line-height: 3vw;
         position: absolute;
-        top: 200vw;
+        top: 220vw;
         left: 75vw;
     }
 
     .display-4 {
         rotate: 90deg;
         font-family: "Anybody Expanded";
-        font-size: 2.5vw;
+        color: #000000;
+        background-color:#D9D9D9;
+        height: 10%;
+        font-size: 5vw;
         line-height: 3vw;
         position: absolute;
-        top: 210vw;
-        left: 75vw;
+        top: 240vw;
+        left: 55vw;
+        letter-spacing: 2vw;
         
     }
 
     .display-5 {
-        padding-left: 30vw;
+        padding-left: 20vw;
         font-family: "Anybody ExtraExpanded";
-        font-size: 5vw;
-        line-height: 3vw;
+        overflow: hidden;
+        color: #FF4122;
+        font-size: 15vw;
+        top: 226vw;
+        padding-top: 10vw;
+        opacity: 0.5;
+        padding-bottom: 5vw;
+    }
+
+    .display-6 {
+        font-family: "Anybody ExtraExpanded";
+        color: #FF4122;
+        font-size: 15vw;
+        position: absolute;
+        top: 236vw;
+        left: -78vw;
+        opacity: 0.5;
     }
 
 /* experiments section */
     .exp1-1 {
-        padding: 50px;
+    padding: 50px;
     position: absolute;
     border: 1px solid black;
     background: rgba(100,100,100,0.5); 
